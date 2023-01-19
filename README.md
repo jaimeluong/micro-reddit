@@ -1,24 +1,3 @@
-# README
+# Micro-Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is the Micro-Reddit project from The Odin Project's Ruby on Rails curriculum. It contains 3 models with the relevant associations: User, Posts, and Comment. Although there is no front-end, users can make a number of posts and comment on such posts with Active Record managing the relationship between the app and SQLite3 database. There are data validations enforced on all three models as well as a series of migrations.
